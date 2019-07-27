@@ -77,6 +77,9 @@ public class DoublyLinkedList<E>
 
   /** Constructs a new empty list. */
   public DoublyLinkedList() {
+    header=null;
+    trailer=null;
+    size=0;
   }
 
   // public accessor methods

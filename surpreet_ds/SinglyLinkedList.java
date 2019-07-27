@@ -74,7 +74,11 @@ public class SinglyLinkedList<E>
 
 
   /** Constructs an initially empty list. */
-  public SinglyLinkedList() { }              // constructs an initially empty list
+  public SinglyLinkedList() {
+    head=null;
+    tail=null;
+    size=0;
+  }              // constructs an initially empty list
 
 
   // access methods

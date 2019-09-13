@@ -34,7 +34,7 @@ public class LinkedQueue<E> implements Queue<E>
   @Override
   public void enqueue(E element)
   {
-    list.addFirst(element);
+    list.addLast(element);
   }
 
   /**
@@ -71,7 +71,7 @@ public class LinkedQueue<E> implements Queue<E>
   Q.enqueue(5);                              // contents: (5)
   Q.enqueue(3);                              // contents: (5, 3)
   System.out.println(Q.size());           // contents: (5, 3)     outputs 2
-  System.out.println(Q.dequeue());            // contents: (5)        outputs 5
+  System.out.println(Q.dequeue());            // contents: (3)        outputs 5
   System.out.println(Q.isEmpty());        // contents: (3)        outputs false
   System.out.println(Q.dequeue());            // contents: ()         outputs 3
   System.out.println(Q.isEmpty());        // contents: ()         outputs true

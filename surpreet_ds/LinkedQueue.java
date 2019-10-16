@@ -46,7 +46,7 @@ public class LinkedQueue<E> implements Queue<E>
   {
     return list.first();
   }
-
+  
   /**
    * Removes and returns the first element of the queue.
    * @return element removed (or null if empty)
